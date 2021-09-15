@@ -27,3 +27,7 @@ def cisfun(ctext):
     """Return input string.
     """
     return 'C %s' % ctext.replace("_", " ")
+
+
+if __name__ == "__main__":
+    app.run()
